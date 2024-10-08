@@ -1,5 +1,5 @@
 body {
-    background-image: url('C:/Users/user/Documents/SISTEMAS PARA INTERNET - UNIESP(rede)/P2/FRONT-END - JAVASCRIPT/galaxia_nota1_front.jpg');
+    background-image: url('galaxia_nota1_front.jpg'); /*corrig*/
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

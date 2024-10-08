@@ -1,5 +1,5 @@
 body { /*pag*/
-    background-image: url('C:/Users/user/Documents/SISTEMAS PARA INTERNET - UNIESP(rede)/P2/FRONT-END - JAVASCRIPT/lua_nota1_front.jpg'); /* Caminho da imagem */
+    background-image: url('lua_nota1_front.jpg'); /* corrigido */
     background-size: cover; /*basicamente o mesmo da primeira questão =D*/
     background-position: center;
     background-attachment: fixed; 
