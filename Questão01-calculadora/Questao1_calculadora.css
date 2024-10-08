@@ -1,0 +1,48 @@
+body {
+    background-image: url('C:/Users/user/Documents/SISTEMAS PARA INTERNET - UNIESP(rede)/P2/FRONT-END - JAVASCRIPT/lua_nota1_front.jpg'); /* Caminho da imagem */
+    background-size: cover; /*tela cheia */
+    background-position: center; /* Centralizar*/
+    background-attachment: fixed; /*fundo fixo*/
+    color: #ffffff; /*texto*/
+    font-family: 'Arial', sans-serif; 
+    height: 100vh; /*Altura da página p/ tela cheia*/
+    margin: 0; /*s/ margem*/
+    display: flex; /*centralizar*/
+    justify-content: center; /*deixar no meio-horiz*/
+    align-items: center; /*deixar no meio-vertc. */
+}
+
+/*container-caix-calcul*/
+.container {
+    background-color: rgba(44, 44, 64, 0.8); /*fundo c/ transp 80%*/
+    padding: 20px;
+    border-radius: 10px; /*Bordas arredondadas*/
+    width: 300px;
+    text-ali: center; /*texto central na caixinha*/
+}
+
+h1 {
+    color: #d9d9f3; /*titulo*/
+}
+
+input, select {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4a4a73; /*botão*/
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b6b9b; /*hover-interagir c/ usu*/
+}

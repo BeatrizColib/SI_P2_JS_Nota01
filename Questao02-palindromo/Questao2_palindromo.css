@@ -1,0 +1,53 @@
+body { /*pag*/
+    background-image: url('C:/Users/user/Documents/SISTEMAS PARA INTERNET - UNIESP(rede)/P2/FRONT-END - JAVASCRIPT/lua_nota1_front.jpg'); /* Caminho da imagem */
+    background-size: cover; /*basicamente o mesmo da primeira questão =D*/
+    background-position: center;
+    background-attachment: fixed; 
+    color: #ffffff; 
+    font-family: 'Arial', sans-serif; 
+    height: 100vh;
+    margin: 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* caixa */
+.container {
+    background-color: rgba(44, 44, 64, 0.8); 
+    padding: 20px;
+    border-radius: 10px; 
+    width: 300px;
+    text-align: center; 
+}
+
+h1 {
+    color: #d9d9f3; /*título */
+}
+
+input, select {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #4a4a73; /*botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b6b9b; /*interaç */
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
